@@ -1,0 +1,5 @@
+<resources>
+    <string name="app_name">pingpong</string>
+    <string name="title_activity_a1">a1</string>
+    <string name="title_activity_fin">fin</string>
+</resources>

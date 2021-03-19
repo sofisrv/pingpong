@@ -1,0 +1,303 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/eligepelota"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:paddingBottom="@dimen/activity_vertical_margin"
+    android:paddingLeft="@dimen/activity_horizontal_margin"
+    android:paddingRight="@dimen/activity_horizontal_margin"
+    android:paddingTop="@dimen/activity_vertical_margin"
+    tools:context="com.example.sofia.pingpong.eligepelota">
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_alignParentTop="true"
+        android:layout_alignParentStart="true">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical" >
+
+            <TextView
+                android:layout_width="match_parent"
+                android:id="@+id/textView3"
+                android:layout_height="15dp" />
+
+            <TextView
+                android:text="Da clic en una pelota para jugar"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:id="@+id/textView34"
+                android:textAppearance="@style/TextAppearance.AppCompat.Button" />
+
+            <TextView
+                android:layout_width="match_parent"
+                android:id="@+id/textView2"
+                android:layout_height="35dp" />
+
+            <LinearLayout
+                android:orientation="horizontal"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent">
+
+                <ImageButton
+                    android:layout_height="wrap_content"
+                    app:srcCompat="@mipmap/p1"
+                    android:id="@+id/b1"
+                    android:layout_width="90dp" />
+
+                <TextView
+                    android:text="Football"
+                    android:layout_height="wrap_content"
+                    android:id="@+id/textView18"
+                    android:layout_weight="1"
+                    android:layout_width="70dp" />
+
+                <ImageButton
+                    android:layout_height="wrap_content"
+                    app:srcCompat="@mipmap/p2"
+                    android:id="@+id/b2"
+                    android:layout_width="90dp" />
+
+                <TextView
+                    android:text="Baseball"
+                    android:layout_width="70dp"
+                    android:layout_height="wrap_content"
+                    android:id="@+id/textView19"
+                    android:layout_weight="1" />
+
+            </LinearLayout>
+
+            <LinearLayout
+                android:orientation="horizontal"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent">
+
+                <ImageButton
+                    android:layout_height="wrap_content"
+                    app:srcCompat="@mipmap/p3"
+                    android:id="@+id/b3"
+                    android:layout_width="90dp" />
+
+                <TextView
+                    android:text="Basketball"
+                    android:layout_width="70dp"
+                    android:layout_height="wrap_content"
+                    android:id="@+id/textView20"
+                    android:layout_weight="1" />
+
+                <ImageButton
+                    android:layout_height="wrap_content"
+                    app:srcCompat="@mipmap/p4"
+                    android:id="@+id/b4"
+                    android:layout_width="90dp" />
+
+                <TextView
+                    android:text="Volleyball"
+                    android:layout_width="70dp"
+                    android:layout_height="wrap_content"
+                    android:id="@+id/textView21"
+                    android:layout_weight="1" />
+            </LinearLayout>
+
+            <LinearLayout
+                android:orientation="horizontal"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent">
+
+                <ImageButton
+                    android:layout_height="wrap_content"
+                    app:srcCompat="@mipmap/p5"
+                    android:id="@+id/b5"
+                    android:layout_width="90dp" />
+
+                <TextView
+                    android:text="Football-color"
+                    android:layout_width="70dp"
+                    android:layout_height="wrap_content"
+                    android:id="@+id/textView22"
+                    android:layout_weight="1" />
+
+                <ImageButton
+                    android:layout_height="wrap_content"
+                    app:srcCompat="@mipmap/p6"
+                    android:id="@+id/b6"
+                    android:layout_width="90dp" />
+
+                <TextView
+                    android:text="Volleyball-color"
+                    android:layout_width="70dp"
+                    android:layout_height="wrap_content"
+                    android:id="@+id/textView23"
+                    android:layout_weight="1" />
+            </LinearLayout>
+
+            <LinearLayout
+                android:orientation="horizontal"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent">
+
+                <ImageButton
+                    android:layout_height="wrap_content"
+                    app:srcCompat="@mipmap/p7"
+                    android:id="@+id/b7"
+                    android:layout_width="90dp" />
+
+                <TextView
+                    android:text="Pixar"
+                    android:layout_width="70dp"
+                    android:layout_height="wrap_content"
+                    android:id="@+id/textView24"
+                    android:layout_weight="1" />
+
+                <ImageButton
+                    android:layout_height="wrap_content"
+                    app:srcCompat="@mipmap/p8"
+                    android:id="@+id/b8"
+                    android:layout_width="90dp" />
+
+                <TextView
+                    android:text="Tennis"
+                    android:layout_width="70dp"
+                    android:layout_height="wrap_content"
+                    android:id="@+id/textView25"
+                    android:layout_weight="1" />
+            </LinearLayout>
+
+            <LinearLayout
+                android:orientation="horizontal"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:weightSum="1">
+
+                <ImageButton
+                    android:layout_width="90dp"
+                    android:layout_height="wrap_content"
+                    app:srcCompat="@mipmap/p10"
+                    android:id="@+id/b9" />
+
+                <TextView
+                    android:text="Bola de boliche"
+                    android:layout_height="wrap_content"
+                    android:id="@+id/textView26"
+                    android:layout_width="70dp"
+                    android:layout_weight="0.51" />
+
+                <ImageButton
+                    android:layout_width="90dp"
+                    android:layout_height="wrap_content"
+                    app:srcCompat="@mipmap/p11"
+                    android:id="@+id/b10" />
+
+                <TextView
+                    android:text="Bola 8"
+                    android:layout_width="70dp"
+                    android:layout_height="wrap_content"
+                    android:id="@+id/textView27"
+                    android:layout_weight="0.63" />
+            </LinearLayout>
+
+            <LinearLayout
+                android:orientation="horizontal"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent">
+
+                <ImageButton
+                    android:layout_width="90dp"
+                    android:layout_height="wrap_content"
+                    app:srcCompat="@mipmap/p12"
+                    android:id="@+id/b11" />
+
+                <TextView
+                    android:text="Football-nike"
+                    android:layout_width="70dp"
+                    android:layout_height="wrap_content"
+                    android:id="@+id/textView28"
+                    android:layout_weight="1" />
+
+                <ImageButton
+                    android:layout_height="wrap_content"
+                    app:srcCompat="@mipmap/p13"
+                    android:id="@+id/b12"
+                    android:layout_width="90dp" />
+
+                <TextView
+                    android:text="Pelota bicolor"
+                    android:layout_height="wrap_content"
+                    android:id="@+id/textView29"
+                    android:layout_width="70dp"
+                    android:layout_weight="1.01" />
+            </LinearLayout>
+
+            <LinearLayout
+                android:orientation="horizontal"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:weightSum="1">
+
+                <ImageButton
+                    android:layout_width="90dp"
+                    android:layout_height="wrap_content"
+                    app:srcCompat="@mipmap/p14"
+                    android:id="@+id/b13" />
+
+                <TextView
+                    android:text="Tenis-happy"
+                    android:layout_height="100dp"
+                    android:id="@+id/Batman"
+                    android:layout_width="70dp"
+                    android:layout_weight="0.61" />
+
+                <ImageButton
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    app:srcCompat="@mipmap/p15"
+                    android:id="@+id/b14" />
+
+                <TextView
+                    android:text="Batman vs superman"
+                    android:layout_width="70dp"
+                    android:layout_height="100dp"
+                    android:id="@+id/textView31"
+                    android:layout_weight="2.31" />
+            </LinearLayout>
+
+            <LinearLayout
+                android:orientation="horizontal"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent">
+
+                <ImageButton
+                    android:layout_width="90dp"
+                    android:layout_height="wrap_content"
+                    app:srcCompat="@mipmap/p18"
+                    android:id="@+id/b15" />
+
+                <TextView
+                    android:text="Pelota colores"
+                    android:layout_width="70dp"
+                    android:layout_height="wrap_content"
+                    android:id="@+id/textView32"
+                    android:layout_weight="1" />
+
+                <ImageButton
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    app:srcCompat="@mipmap/p17"
+                    android:id="@+id/b16" />
+
+                <TextView
+                    android:text="Wilson"
+                    android:layout_height="100dp"
+                    android:id="@+id/textView33"
+                    android:layout_weight="0.09"
+                    android:layout_width="70dp" />
+            </LinearLayout>
+
+        </LinearLayout>
+    </ScrollView>
+</RelativeLayout>
